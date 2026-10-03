@@ -198,8 +198,6 @@ Dua aturan yang perlu diingat:
 
 ## 9. Catatan teknis
 
-- `config.yaml` adalah satu-satunya sumber Nama/NPM
-  (dibaca via `src/config_loader.py`, tidak di-hardcode di modul lain).
 - Benchmark memakai `time.perf_counter()` dan tiap kombinasi diulang
   3× lalu diambil nilai tengah (median) agar tahan terhadap gangguan sesaat.
 - Multiprocessing di Windows memakai `spawn`: fungsi pekerja didefinisikan
