@@ -1,0 +1,11 @@
+# ---> Python
+__pycache__/
+*.py[cod]
+
+# ---> Dokumen internal & laporan (tidak untuk repo publik)
+PRD.md
+report/
+
+# ---> Dataset (terlalu besar untuk GitHub, diregenerasi lokal)
+dataset/raw/
+dataset/prepared/

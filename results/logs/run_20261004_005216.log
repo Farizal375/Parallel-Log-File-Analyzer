@@ -1,0 +1,53 @@
+mulai=20261004_005216 file_counts=[4, 8, 16, 32] repetitions=3
+seq files=4 waktu=2.835
+mt files=4 th=1 waktu=2.827 speedup=1.00
+mt files=4 th=2 waktu=2.857 speedup=0.99
+mt files=4 th=4 waktu=2.840 speedup=1.00
+mt files=4 th=8 waktu=2.902 speedup=0.98
+mp files=4 pr=1 waktu=3.051 speedup=0.93
+mp files=4 pr=2 waktu=1.668 speedup=1.70
+mp files=4 pr=4 waktu=1.059 speedup=2.68
+mp files=4 pr=8 waktu=1.074 speedup=2.64
+hy files=4 p=2 t=2 waktu=1.676 speedup=1.69
+hy files=4 p=4 t=2 waktu=0.995 speedup=2.85
+hy files=4 p=4 t=4 waktu=0.959 speedup=2.96
+hy files=4 p=8 t=2 waktu=1.004 speedup=2.82
+seq files=8 waktu=5.656
+mt files=8 th=1 waktu=5.661 speedup=1.00
+mt files=8 th=2 waktu=5.677 speedup=1.00
+mt files=8 th=4 waktu=5.689 speedup=0.99
+mt files=8 th=8 waktu=5.686 speedup=0.99
+mp files=8 pr=1 waktu=5.807 speedup=0.97
+mp files=8 pr=2 waktu=3.067 speedup=1.84
+mp files=8 pr=4 waktu=1.763 speedup=3.21
+mp files=8 pr=8 waktu=1.161 speedup=4.87
+hy files=8 p=2 t=2 waktu=3.053 speedup=1.85
+hy files=8 p=4 t=2 waktu=1.720 speedup=3.29
+hy files=8 p=4 t=4 waktu=1.714 speedup=3.30
+hy files=8 p=8 t=2 waktu=1.158 speedup=4.89
+seq files=16 waktu=11.269
+mt files=16 th=1 waktu=11.279 speedup=1.00
+mt files=16 th=2 waktu=11.366 speedup=0.99
+mt files=16 th=4 waktu=11.359 speedup=0.99
+mt files=16 th=8 waktu=11.414 speedup=0.99
+mp files=16 pr=1 waktu=11.466 speedup=0.98
+mp files=16 pr=2 waktu=6.259 speedup=1.80
+mp files=16 pr=4 waktu=3.378 speedup=3.34
+mp files=16 pr=8 waktu=2.068 speedup=5.45
+hy files=16 p=2 t=2 waktu=5.891 speedup=1.91
+hy files=16 p=4 t=2 waktu=3.181 speedup=3.54
+hy files=16 p=4 t=4 waktu=3.364 speedup=3.35
+hy files=16 p=8 t=2 waktu=1.985 speedup=5.68
+seq files=32 waktu=22.494
+mt files=32 th=1 waktu=22.478 speedup=1.00
+mt files=32 th=2 waktu=22.704 speedup=0.99
+mt files=32 th=4 waktu=22.707 speedup=0.99
+mt files=32 th=8 waktu=22.634 speedup=0.99
+mp files=32 pr=1 waktu=22.730 speedup=0.99
+mp files=32 pr=2 waktu=11.971 speedup=1.88
+mp files=32 pr=4 waktu=7.389 speedup=3.04
+mp files=32 pr=8 waktu=3.949 speedup=5.70
+hy files=32 p=2 t=2 waktu=11.621 speedup=1.94
+hy files=32 p=4 t=2 waktu=6.219 speedup=3.62
+hy files=32 p=4 t=4 waktu=6.558 speedup=3.43
+hy files=32 p=8 t=2 waktu=3.742 speedup=6.01

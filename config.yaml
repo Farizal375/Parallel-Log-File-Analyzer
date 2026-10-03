@@ -1,0 +1,23 @@
+project:
+  nama: "Farizal Muztahidin"
+  npm: "247006111044"
+
+dataset:
+  nama: "Web Server Access Logs"                                   # 👤 informasi saja, ubah jika dataset berbeda
+  sumber_url: "https://www.kaggle.com/datasets/eliasdabbas/web-server-access-logs"  # 👤 informasi saja (untuk laporan)
+  raw_dir: "dataset/raw"
+  prepared_dir: "dataset/prepared"
+  file_sizes_mb: [50, 100, 200]            # variasi ukuran file
+
+experiment:
+  file_counts: [4, 8, 16, 32]                # TAMBAHAN: variasi jumlah file
+  threads: [1, 2, 4, 8]
+  processes: [1, 2, 4, 8]
+  hybrid_configs:
+    - {processes: 2, threads: 2}
+    - {processes: 4, threads: 2}
+    - {processes: 4, threads: 4}
+    - {processes: 8, threads: 2}
+  repetitions: 3
+  keyword: "timeout"
+  top_ip_count: 10
